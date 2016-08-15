@@ -21,6 +21,7 @@ public class EventManage {
         DefEventListener defEventListener = new DefEventListener();
         eventBus.register(defEventListener);
         asyncEventBus.register(defEventListener);
+
     }
 
     public static void synPost(Object eventObj) {

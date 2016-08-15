@@ -31,4 +31,8 @@ public class EventManage {
         asyncEventBus.post(eventObj);
     }
 
+    public static void keyPost(Integer key) {
+        eventBus.post(key);
+    }
+
 }

@@ -12,7 +12,7 @@ public class DefEventListener {
     @Subscribe
     @AllowConcurrentEvents
     public void onEvent(Integer eventKey) {
-        System.out.print(EventEnum.get(eventKey).value);
+        System.out.println(EventEnum.get(eventKey).value);
     }
 
     @Subscribe
